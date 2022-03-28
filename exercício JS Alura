@@ -1,0 +1,10 @@
+alert ("Olá, seja bem vindo!");
+var name = prompt("Qual o seu nome?");
+var idade = prompt("Qual a sua idade?");
+var tech = prompt("Qual lingaugem você está estudando?");
+alert ("Olá " + name + " ,você tem " + idade + " anos e está estudando " + tech + " !");
+var escolha = prompt("Você gosta de estudar " + tech + " ? Se sim responda com 1, se não respoda com 2");
+if (escolha == 1) {
+  alert("Muuito bom! Continue estudando e você terá muito sucesso!")};
+if (escolha == 2) {
+  alert("Que pena... Já tentou aprender outras linguagens?")};
